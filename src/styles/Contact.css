@@ -1,0 +1,75 @@
+/* General Styles */
+ body {
+    color: #C0C0C0;
+    font-family: Arial, san-serif;
+ }
+ 
+ 
+ /* Contact Form Styles */
+
+ #contact-form {
+    background-color: rgba(215, 223, 226, 0.9);
+    padding: 2rem;
+    width: 50%;
+    position: relative;
+    margin: 2rem auto;
+    border-radius:7px;
+    box-shadow: 0px 2px 10px #a2a9ab;
+ }
+ #contact-form input,   
+ #contact-form select,   
+ #contact-form textarea,   
+ #contact-form label { 
+    font-size: 15px;  
+    margin-bottom: 2px;
+    font-family: Arial, san-serif;
+ } 
+ #contact-form input,   
+ #contact-form select,   
+ #contact-form textarea { 
+    width:100%;
+    background: #fff;
+    border: 0; 
+    border-radius: 4px;
+    margin-bottom: 25px;  
+    padding: 5px;  
+ }  
+ #contact-form input:focus,   
+ #contact-form select:focus,   
+ #contact-form textarea:focus {  
+    background-color: #E5E6E7; 
+ }  
+ #contact-form textarea {
+    width:100%;
+    height: 150px;
+ }
+ 
+ input:required, textarea:required {  
+    box-shadow: none;
+    -moz-box-shadow: none;  
+    -webkit-box-shadow: none;  
+    -o-box-shadow: none;  
+ } 
+ #contact-form .required {  
+    font-weight:bold;  
+    color: darkslategrey;      
+ }
+ 
+ /* Hide success/failure message
+    (especially since the php is missing) */
+ #failure, #success {
+    color: #6EA070; 
+    display:none;  
+ }
+ 
+ /* Make form look nice on smaller screens */
+ @media only screen and (max-width: 580px) {
+    #contact-form{
+       left: 3%;
+       margin-right: 3%;
+       width: 88%;
+       margin-left: 0;
+       padding-left: 3%;
+       padding-right: 3%;
+    }
+ }

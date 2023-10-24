@@ -1,0 +1,42 @@
+/* HomePage.css */
+.testimonial-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .testimonial {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+  }
+  
+  .testimonial-text {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+  
+  .testimonial-author {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .carousel-controls {
+    margin-top: 10px;
+  }
+  
+  .carousel-control-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
